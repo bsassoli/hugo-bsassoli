@@ -16,7 +16,7 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
-googleAnalytics = "G-LPXHY7RSM-B"
+googleAnalytics = "G-LPXHY7RSMB"
 
 # copyright description used only for seo schema
 copyright = "copyright: Bernardino Sassoli 2022-"
@@ -65,6 +65,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     post = ""
     name = "Categories"
     url = "/categories/"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "/about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "About"
+    url = "about"
+    # title will be shown when you hover on this menu link
     title = ""
 
 [params]
