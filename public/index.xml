@@ -4,15 +4,28 @@
         <link>https://www.sassoli.io/</link>
         <description>Personal website for Bernardino Sassoli. I write about philosophy, technology, computer science, and current affairs.</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sassoli@gmail.com (Bernardino Sassoli)</managingEditor>
-            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Tue, 01 Nov 2022 20:03:19 &#43;0100</lastBuildDate>
+            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Tue, 01 Nov 2022 22:55:31 &#43;0100</lastBuildDate>
             <atom:link href="https://www.sassoli.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Ux Resources</title>
+    <title>Foundation of User Experience Design</title>
+    <link>https://www.sassoli.io/ux-course1-notes/</link>
+    <pubDate>Tue, 01 Nov 2022 22:55:31 &#43;0100</pubDate>
+    <author>Bernardino Sassoli</author>
+    <guid>https://www.sassoli.io/ux-course1-notes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/design1.jpg" referrerpolicy="no-referrer">
+            </div>My notes for Foundation of User Experience Design the first course in Google&rsquo;s UX Design Professional Certificate on Coursera*.
+Don Norman (1998): first idea of UX &ndash;&gt; The Design of Everyday Things UX =&gt; how a person feels about interacting with a product usability equity enjoyability usefulness Think of all potential users Design + structure + purpose (e.g. ketchup bottle evolution) Research from McKinsey shows that value of UX across industries -&gt; increased likelihood of product being shared or recommended No similar shared background for UX designers: rather, curiosity, empathy sense of visuals.]]></description>
+</item>
+<item>
+    <title>UX Resources</title>
     <link>https://www.sassoli.io/ux-resources/</link>
     <pubDate>Tue, 01 Nov 2022 20:03:19 &#43;0100</pubDate>
     <author>Bernardino Sassoli</author>
     <guid>https://www.sassoli.io/ux-resources/</guid>
-    <description><![CDATA[Mostly (but not uniquely) links from Google&rsquo;s UX design specialization on Coursera.
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/ux-md.jpg" referrerpolicy="no-referrer">
+            </div>Mostly (but not uniquely) links from Google&rsquo;s UX design specialization on Coursera.
 UX research User Research in UX Design: The Complete Beginner&rsquo;s Guide What Is Card Sorting In UX Design? A Beginner’s Guide User Research in UX Design: The Complete Beginner&rsquo;s Guide How To Build A UX Research Portfolio (Step-By-Step Guide) Design thinking Design Thinking 101-YouTube The Design Thinking Process-An Introduction-YouTube UX Design Process: Everything You Need to Know-Adobe XD Ideas What is Design Thinking?]]></description>
 </item>
 </channel>

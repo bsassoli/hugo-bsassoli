@@ -1,4 +1,4 @@
-# Ux Resources
+# UX Resources
 
 Mostly (but not uniquely) links from Google's UX design specialization on Coursera.
 

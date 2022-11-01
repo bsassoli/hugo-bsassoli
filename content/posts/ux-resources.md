@@ -1,7 +1,8 @@
 ---
-title: "Ux Resources"
+title: "UX Resources"
 date: 2022-11-01T20:03:19+01:00
 draft: false
+toc: true
 tags: [UX, design]
 featuredImage: /images/ux-md.jpg
 ---
