@@ -3,6 +3,7 @@ title: "Ux Resources"
 date: 2022-11-01T20:03:19+01:00
 draft: false
 tags: [UX, design]
+featuredImage: "/images/ux-md.jpg"
 ---
 Mostly (but not uniquely) links from Google's UX design specialization on Coursera.
 
