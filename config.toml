@@ -16,7 +16,7 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
-googleAnalytics = G-LPXHY7RSMB
+googleAnalytics = "G-LPXHY7RSMB"
 
 # copyright description used only for seo schema
 copyright = "copyright: Bernardino Sassoli 2022-"
