@@ -4,7 +4,7 @@ date: 2022-11-01T20:03:19+01:00
 lastmod: 2022-11-02T09:51:31+01:00
 draft: false
 description: Links to resources on UX design
-summary: description
+summary: Links to resources on UX design
 toc: true
 tags: [UX, design]
 featuredImage: /images/ux-md.jpg
