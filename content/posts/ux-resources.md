@@ -18,6 +18,14 @@ Mostly (but not uniquely) links from [Google's UX design specialization on Cours
 - [User Research in UX Design: The Complete Beginner's Guide](https://careerfoundry.com/en/blog/ux-design/the-importance-of-user-research-and-how-to-do-it/)
 - [How To Build A UX Research Portfolio (Step-By-Step Guide)](https://careerfoundry.com/en/blog/ux-design/ux-research-portfolio-guide/)
 
+### Research methods
+
+- [User Interviews: How, When, and Why to Conduct Them](https://www.nngroup.com/articles/user-interviews/#:~:text=Topics%3A,of%20learning%20about%20that%20topic)
+- [Online Surveys - Usability.gov](https://www.usability.gov/how-to-and-tools/methods/online-surveys.html)
+- [Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/)
+- [What is Secondary Research? + Methods & Examples](https://www.formpl.us/blog/secondary-research)
+- [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/)
+
 ## Design thinking
 
 - [Design Thinking 101-YouTube](https://www.youtube.com/watch?v=6lmvCqvmjfE)
@@ -36,4 +44,9 @@ Mostly (but not uniquely) links from [Google's UX design specialization on Cours
 - [Accessibility Support - Official Apple Support](https://support.apple.com/accessibility)
 - [Google's YouTube Playlist for accessibilty](https://www.youtube.com/playlist?list=PL590L5WQmH8dvW6kLjd5jRDN0IiCJHLZZ)
 
+## Design sprints
 
+- [Share and engage with the Design Sprint Community](https://designsprintkit.withgoogle.com/)
+- [What’s a Design Sprint and why is it important? - by Gloria Lo - UX Planet](https://uxplanet.org/whats-a-design-sprint-and-why-is-it-important-f7b826651e09#:~:text=A%20Design%20Sprint%20is%20a,and%20testing%20ideas%20with%20customers.)
+- [Inside a Design Sprint Workshop at Google - by INKONIQ - INKONIQ BLOG - Medium](https://medium.com/inkoniq-blog/inside-a-design-sprint-workshop-at-google-3950b1654f2)
+- [3 things I learned from my first design sprint - by David O. Andersen - UX Planet](https://uxplanet.org/3-things-i-learned-from-my-first-design-sprint-ed5d2113afad)
