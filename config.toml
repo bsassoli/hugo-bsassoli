@@ -360,20 +360,20 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
-      Whatsapp = false
+      Linkedin = true
+      Whatsapp = true
       Pinterest = false
       Tumblr = false
       HackerNews = true
-      Reddit = false
+      Reddit = true
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
@@ -516,10 +516,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   #  Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-NQTWQCN05S"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
