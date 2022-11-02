@@ -1,7 +1,7 @@
 # UX Resources
 
-Mostly (but not uniquely) links from Google's UX design specialization on Coursera.
-
+Mostly (but not uniquely) links from [Google's UX design specialization on Coursera](https://www.coursera.org/professional-certificates/google-ux-design?).
+<!--more-->
 ## UX research
 
 - [User Research in UX Design: The Complete Beginner's Guide](https://careerfoundry.com/en/blog/ux-design/the-importance-of-user-research-and-how-to-do-it/)

@@ -1,14 +1,17 @@
 ---
 title: "Foundation of User Experience Design"
 date: 2022-11-01T22:55:31+01:00
+lastmod: 2022-11-02T09:51:31+01:00
 draft: false
 featuredImage: /images/design1.jpg
 tags: [UX, design]
 categories: [Notes]
 toc: false
+summmary: Notes for Google's Foundation of User Experience Design course
+description: Notes for Google's Foundation of User Experience Design course
 ---
-
-My notes for [*Foundation of User Experience Design*](https://www.coursera.org/learn/foundations-user-experience-design/home/week/1) the first course in [Google's UX Design Professional Certificate on Coursera*](https://www.coursera.org/professional-certificates/google-ux-design?).
+<!--more-->
+My notes for [Foundation of User Experience Design](https://www.coursera.org/learn/foundations-user-experience-design/home/week/1) the first course in [Google's UX Design Professional Certificate on Coursera](https://www.coursera.org/professional-certificates/google-ux-design?).
 
 - [Don Norman](https://en.wikipedia.org/wiki/Don_Norman) (1998): first idea of UX --> [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
 - UX => how a person feels about interacting with a product
@@ -37,7 +40,7 @@ My notes for [*Foundation of User Experience Design*](https://www.coursera.org/l
     flowchart LR;
     Understand --> Specify --> Design --> Evaluate --> Understand
     {{< /mermaid >}}
-{{% admonition note "Doubt!" false %}}
+{{% admonition question "Doubt!" false %}}
     Very unclear to me what's the real difference between user-centered design and design thinking.
 {{% /admonition %}}
 
