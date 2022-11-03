@@ -1,5 +1,5 @@
 ---
-title: "Notes on Foundations of User Experience Design"
+title: "Notes for UX Course 'Foundations of User Experience Design'"
 date: 2022-11-01T22:55:31+01:00
 lastmod: 2022-11-02T19:21:31+01:00
 draft: false

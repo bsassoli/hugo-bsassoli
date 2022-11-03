@@ -17,6 +17,18 @@ Mostly (but not uniquely) links from [Google's UX design specialization on Cours
 - [What is Secondary Research? + Methods & Examples](https://www.formpl.us/blog/secondary-research)
 - [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/)
 
+### Case studies
+
+- [Reimagining Google Fonts - Library - Google Design](https://design.google/library/reimagining-google-fonts/)
+- [Exploring Color on Google Maps - Library - Google Design](https://design.google/library/exploring-color-google-maps/)
+- [Designing for a changing world – Airbnb Design](https://airbnb.design/designing-for-a-changing-world/)
+
+### User personas
+
+- [30 examples of great user persona templates - Justinmind](https://www.justinmind.com/blog/user-persona-templates/)
+- [User Persona Template and Examples - Xtensio](https://xtensio.com/user-persona-template/)
+- [Personas – A Simple Introduction - IxDF](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them)
+
 ## Design thinking
 
 - [Design Thinking 101-YouTube](https://www.youtube.com/watch?v=6lmvCqvmjfE)

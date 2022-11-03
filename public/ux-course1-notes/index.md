@@ -1,4 +1,4 @@
-# Notes on Foundations of User Experience Design
+# Notes for UX Course 'Foundations of User Experience Design'
 
 <!--more-->
 My notes for [Foundation of User Experience Design](https://www.coursera.org/learn/foundations-user-experience-design/home/week/1) the first course in [Google's UX Design Professional Certificate on Coursera](https://www.coursera.org/professional-certificates/google-ux-design?).

@@ -1,12 +1,13 @@
 ---
 title: "UX Resources"
 date: 2022-11-01T20:03:19+01:00
-lastmod: 2022-11-02T09:51:31+01:00
+lastmod: 2022-11-03T09:51:31+01:00
 draft: false
 description: Links to resources on UX design
 summary: Links to resources on UX design
 toc: true
 tags: [UX, design]
+categories: [reference]
 featuredImage: /images/ux-md.jpg
 ---
 Mostly (but not uniquely) links from [Google's UX design specialization on Coursera](https://www.coursera.org/professional-certificates/google-ux-design?).
@@ -25,6 +26,18 @@ Mostly (but not uniquely) links from [Google's UX design specialization on Cours
 - [Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/)
 - [What is Secondary Research? + Methods & Examples](https://www.formpl.us/blog/secondary-research)
 - [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/)
+
+### Case studies
+
+- [Reimagining Google Fonts - Library - Google Design](https://design.google/library/reimagining-google-fonts/)
+- [Exploring Color on Google Maps - Library - Google Design](https://design.google/library/exploring-color-google-maps/)
+- [Designing for a changing world – Airbnb Design](https://airbnb.design/designing-for-a-changing-world/)
+
+### User personas
+
+- [30 examples of great user persona templates - Justinmind](https://www.justinmind.com/blog/user-persona-templates/)
+- [User Persona Template and Examples - Xtensio](https://xtensio.com/user-persona-template/)
+- [Personas – A Simple Introduction - IxDF](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them)
 
 ## Design thinking
 
