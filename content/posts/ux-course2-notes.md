@@ -2,8 +2,8 @@
 title: "Notes for UX Course 'Start the UX design process'"
 tags: [UX, design]
 categories: [Notes]
-summmary: Notes for Google's Foundation of User Experience Design course 2
-description: Notes for Google's Foundation of User Experience Design course 2
+summmary: Notes for Google's Start the UX design process Design course.
+description: Notes for Google's Start the UX design process course on Coursera - the second course in Google's UX design professional certificate.
 date: 2022-11-03T09:25:31+01:00
 lastmod: 2022-11-03T09:51:31+01:00
 draft: false 

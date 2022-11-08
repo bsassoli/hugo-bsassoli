@@ -6,8 +6,8 @@ draft: false
 featuredImage: /images/design1.jpg
 tags: [UX, design]
 categories: [Notes]
-summmary: Notes for Google's Foundation of User Experience Design course
-description: Notes for Google's Foundation of User Experience Design course
+summmary: Notes for Google's Foundation of User Experience Design course.
+description: Notes for Foundation of User Experience Design course on Coursera - the first course in Google's UX design professional certificate.
 ---
 <!--more-->
 My notes for [Foundation of User Experience Design](https://www.coursera.org/learn/foundations-user-experience-design/home/week/1) the first course in [Google's UX Design Professional Certificate on Coursera](https://www.coursera.org/professional-certificates/google-ux-design?).
