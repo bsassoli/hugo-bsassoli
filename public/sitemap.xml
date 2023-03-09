@@ -2,15 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://www.sassoli.io/categories/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/tags/design/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/categories/notes/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/ux-course2-notes/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/posts/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/tags/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/tags/ux/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/ux-course1-notes/</loc><lastmod>2022-11-03T23:11:45&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/categories/reference/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/ux-resources/</loc><lastmod>2022-11-07T06:41:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/posts/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/reading-sicp/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/categories/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/tags/design/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/categories/notes/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/old/ux-course2-notes/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/old/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/tags/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/tags/ux/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/old/ux-course1-notes/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/categories/reference/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/old/ux-resources/</loc><lastmod>2023-03-09T21:02:03&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://www.sassoli.io/about/</loc><priority>0</priority></url></urlset>
