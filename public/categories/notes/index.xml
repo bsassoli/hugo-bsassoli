@@ -4,7 +4,15 @@
         <link>https://www.sassoli.io/categories/notes/</link>
         <description>Notes - Category - JOATMON</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sassoli@gmail.com (Bernardino Sassoli)</managingEditor>
-            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Thu, 03 Nov 2022 09:25:31 &#43;0100</lastBuildDate><atom:link href="https://www.sassoli.io/categories/notes/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Thu, 09 Mar 2023 21:00:30 &#43;0100</lastBuildDate><atom:link href="https://www.sassoli.io/categories/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>Berni&#39;s adventures in SICPland</title>
+    <link>https://www.sassoli.io/reading-sicp/</link>
+    <pubDate>Thu, 09 Mar 2023 21:00:30 &#43;0100</pubDate>
+    <author>Bernardino Sassoli</author>
+    <guid>https://www.sassoli.io/reading-sicp/</guid>
+    <description><![CDATA[I probably should get my act together and actually read and study SICP]]></description>
+</item>
+<item>
     <title>Notes for UX Course &#39;Start the UX design process&#39;</title>
     <link>https://www.sassoli.io/old/ux-course2-notes/</link>
     <pubDate>Thu, 03 Nov 2022 09:25:31 &#43;0100</pubDate>
