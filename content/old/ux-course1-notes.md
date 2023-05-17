@@ -2,7 +2,7 @@
 title: "Notes for UX Course 'Foundations of User Experience Design'"
 date: 2022-11-01T22:55:31+01:00
 lastmod: 2022-11-02T19:21:31+01:00
-draft: false
+draft: true
 featuredImage: /images/design1.jpg
 tags: [UX, design]
 categories: [Notes]
@@ -44,9 +44,9 @@ My notes for [Foundation of User Experience Design](https://www.coursera.org/lea
     flowchart LR;
     Understand --> Specify --> Design --> Evaluate --> Understand
     {{< /mermaid >}}
-{{% admonition question "Doubt!" false %}}
+    {{% admonition question "Doubt!" false %}}
     Very unclear to me what's the real difference between user-centered design and design thinking.
-{{% /admonition %}}
+    {{% /admonition %}}
 
 - Assistive technology (examples):
   - color modification(e.g. contrast)
@@ -75,9 +75,9 @@ My notes for [Foundation of User Experience Design](https://www.coursera.org/lea
     - both vertical and horizontal layouts
     - keep navigation menus minimal
     - resort to familiar gestures
-{{% admonition tip "time spent on platforms!" false %}}
+    {{% admonition tip "time spent on platforms!" false %}}
     For a typical interaction, average time on web is 72 secs vs 150 secs on mobile device.
-{{% /admonition %}}
+    {{% /admonition %}}
 
 ## Week 3
 
@@ -87,6 +87,7 @@ My notes for [Foundation of User Experience Design](https://www.coursera.org/lea
         Understand --> Ideate --> Decide --> Prototype --> Test --> Understand
     {{</ mermaid >}}
   
+
 {{% admonition note "Careful" false %}}
     "Decide" is not "Define" as in design thinking: it comes after "Ideate", whereas in DT "Ideate" comes before and after empathize.
 {{% /admonition %}}
