@@ -4,7 +4,17 @@
         <link>https://www.sassoli.io/tags/programming/</link>
         <description>programming - Tag - JOATMON</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sassoli@gmail.com (Bernardino Sassoli)</managingEditor>
-            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Thu, 09 Mar 2023 21:00:30 &#43;0100</lastBuildDate><atom:link href="https://www.sassoli.io/tags/programming/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Thu, 29 Jun 2023 18:04:08 &#43;0200</lastBuildDate><atom:link href="https://www.sassoli.io/tags/programming/" rel="self" type="application/rss+xml" /><item>
+    <title>Beginning My Haskell Journey</title>
+    <link>https://www.sassoli.io/beginning-my-haskell-journey/</link>
+    <pubDate>Thu, 29 Jun 2023 18:04:08 &#43;0200</pubDate>
+    <author>Bernardino</author>
+    <guid>https://www.sassoli.io/beginning-my-haskell-journey/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/haskell_code.png" referrerpolicy="no-referrer">
+            </div>I have been interested in functional programming languages for a while now. Having gone through some Scheme / Racket, some Elm as well as a little Standard ML, I guess I have no more excuse to procrastinate learning Haskell, which was the initial idea all along, basically. I am a little put off but all the horror stories about people who attempted to learn Haskell, unsuccessfully, many times over. So this series of posts will be my way to hold myself accountable and, if so be it, publicly acknowledge my shameful failure and my addition to the above mentioned heap of wannabee Haskellers.]]></description>
+</item>
+<item>
     <title>Berni&#39;s adventures in SICPland</title>
     <link>https://www.sassoli.io/reading-sicp/</link>
     <pubDate>Thu, 09 Mar 2023 21:00:30 &#43;0100</pubDate>
