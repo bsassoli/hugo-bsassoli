@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - JOATMON</title>
-        <link>https://www.sassoli.io/posts/</link>
-        <description>All Posts | JOATMON</description>
+        <title>Haskell - Tag - JOATMON</title>
+        <link>https://www.sassoli.io/tags/haskell/</link>
+        <description>Haskell - Tag - JOATMON</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sassoli@gmail.com (Bernardino Sassoli)</managingEditor>
-            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Fri, 30 Jun 2023 12:13:35 &#43;0200</lastBuildDate><atom:link href="https://www.sassoli.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Fri, 30 Jun 2023 12:13:35 &#43;0200</lastBuildDate><atom:link href="https://www.sassoli.io/tags/haskell/" rel="self" type="application/rss+xml" /><item>
     <title>Haskell Book: Part 1</title>
     <link>https://www.sassoli.io/haskell-book-part1/</link>
     <pubDate>Fri, 30 Jun 2023 12:13:35 &#43;0200</pubDate>
@@ -25,16 +25,6 @@ Syntax of λ-calculus 1 2 3 &lt;expression&gt; := &lt;name&gt; | &lt;function&gt
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/haskell_code.png" referrerpolicy="no-referrer">
             </div>I&rsquo;ve been interested in functional programming languages for a while now. Having gone through some Scheme / Racket, some Elm as well as a little Standard ML, I guess I have no more excuse to procrastinate learning Haskell, which was the initial idea all along, basically. I am a little put off but all the horror stories about people who attempted to learn Haskell, unsuccessfully, many times over. So this series of posts will be my way to hold myself accountable and, if so be it, publicly acknowledge my shameful failure and my addition to the above mentioned heap of wannabee Haskellers.]]></description>
-</item>
-<item>
-    <title>Berni&#39;s adventures in SICPland</title>
-    <link>https://www.sassoli.io/reading-sicp/</link>
-    <pubDate>Thu, 09 Mar 2023 21:00:30 &#43;0100</pubDate>
-    <author>Bernardino Sassoli</author>
-    <guid>https://www.sassoli.io/reading-sicp/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/wizard.jpg" referrerpolicy="no-referrer">
-            </div>I probably should get my act together and actually read and study SICP.]]></description>
 </item>
 </channel>
 </rss>
