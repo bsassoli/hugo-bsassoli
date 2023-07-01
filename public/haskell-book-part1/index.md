@@ -19,7 +19,7 @@ This is just a very short and simple introduction to the lambda calculus.
 - **β-reduction**: when you apply a function to some expression you replace all bound occurrences in the body with that expression and eliminate the head. To indicate that we are substituting e.g. $x$ with $z$ in $\lambda{x}.x$ we write: $$[x := z]$$
 - Applications are *left-associative*: $$(\lambda{x}.x)(\lambda{y}.y)z$$ is equivalent to $$((\lambda{x}.x)(\lambda{y}.y))z$$
 
-[Exercises]({{< ref "chapter-1-exercises" >}})
+[Exercises]({{< ref "/pages/chapter-1-exercises" >}})
 
 
 ```haskell
