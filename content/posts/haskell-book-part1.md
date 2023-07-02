@@ -1,12 +1,11 @@
 ---
-title: "Haskell Book: Part 1"
+title: "Haskell Book: Chapters 1 & 2"
 date: 2023-06-30T12:13:35+02:00
 draft: false
-featuredImage: ""
 description: "Notes on chapters 1 and 2 of the Haskell book"
 featuredImage: "/images/haskell-hello-world.png"
 tags: [programming, programming languages, Haskell]
-categories: [Learning Haskell]
+categories: [Learning Haskell, Notes, Haskell Book]
 ---
 
 So this morning I got started with the [Haskell book](https://lhbg-book.link). Here are some notes and exercises.
@@ -33,7 +32,7 @@ This is just a very short and simple introduction to the lambda calculus.
 
 >semantically, Haskell is a lambda calculus. Actually, Haskell is a typed lambda calculus—more on types later— with a lot of surface-level decoration sprinkled on top, to make it easier for humans to write, but the semantics of the core language are the same as the lambda calculus. That is, the meaning of Haskell programs is centered around evaluating expressions.
 
-### [Exercises]({{< ref "/pages/chapter-1-exercises" >}})
+### [Exercises]({{< ref "chapter-1-exercises" >}})
 
 ## Chapter 2
 

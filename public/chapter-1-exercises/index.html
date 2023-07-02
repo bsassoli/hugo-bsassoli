@@ -4,8 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Chapter 1 Exercises - JOATMON</title><meta name="Description" content="Personal website for Bernardino Sassoli. I write about philosophy, technology, computer science, and current affairs."><meta property="og:title" content="Chapter 1 Exercises" />
-<meta property="og:description" content="(𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)
+        <title>Haskell Book: Chapter 1 Exercises - JOATMON</title><meta name="Description" content="Personal website for Bernardino Sassoli. I write about philosophy, technology, computer science, and current affairs."><meta property="og:title" content="Haskell Book: Chapter 1 Exercises" />
+<meta property="og:description" content="Combinators 𝜆𝑥.𝑥𝑥𝑥 𝜆𝑥𝑦.𝑧𝑥 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥) 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥𝑦) 𝜆𝑥𝑦.𝑥𝑦(𝑧𝑥𝑦) 2 and 5 are not combinators because in both cases $z$ appears free.
+Normal form or diverge? 𝜆𝑥.𝑥𝑥𝑥 is already in normal form (𝜆𝑧.𝑧𝑧)(𝜆𝑦.𝑦𝑦) diverges since the first application to $z$ yields (𝜆𝑦.𝑦𝑦)(𝜆𝑦.𝑦𝑦) which is omega (𝜆𝑥.𝑥𝑥𝑥)𝑧 becomes 𝑧𝑧𝑧 -&gt; normal form Beta reduce (𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)
 (𝜆𝑏𝑐.𝑐𝑏𝑧)(𝑧)(𝜆𝑤𝑣.𝑤)
 (𝜆𝑐.𝑐𝑧𝑧)(𝜆𝑤𝑣.𝑤)
 (𝜆𝑤𝑣.𝑤)(𝑧𝑧)
@@ -24,32 +25,18 @@
 (𝜆𝑞.𝑞𝑦)(𝜆𝑞.𝑞𝑦)
 (𝜆𝑞.𝑞𝑦)(y)
 yy
-(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑦.𝑦)𝑦
-(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑞.𝑞)(𝑦)
-(𝜆𝑦.(𝜆𝑞.𝑞)𝑦𝑦)(𝑦)
-((𝜆𝑞.𝑞)𝑦)(𝑦)
-𝑦𝑦
-(𝜆𝑎.𝑎𝑎)(𝜆𝑏.𝑏𝑎)𝑐
-(𝜆𝑎.𝑎𝑎)(𝜆𝑏.𝑏𝑎)𝑐
-(𝜆𝑏.𝑏𝑎)(𝜆𝑏.𝑏𝑎)(𝑐)
-(𝜆𝑏.𝑏𝑎)(𝑎)(𝑐)
-𝑎𝑎𝑐
-(𝜆𝑥𝑦𝑧.𝑥𝑧(𝑦𝑧))(𝜆𝑥.𝑧)(𝜆𝑥.𝑎)
-(𝜆𝑥.𝜆𝑦.𝜆𝑧.𝑥𝑧(𝑦𝑧))(𝜆𝑥.𝑐)(𝜆𝑥.𝑎)
-(𝜆𝑦.𝜆𝑧.(𝜆𝑥.𝑐)(𝑧)(𝑦𝑧))(𝜆𝑥.𝑎)
-(𝜆𝑧.(𝜆𝑥.𝑐)(𝑧)((𝜆𝑥.𝑎)𝑧))
-(𝜆𝑧.𝑐(𝜆𝑥.𝑎(𝑧)))
-(𝜆𝑧.𝑐𝑎)" />
+(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑦.𝑦)𝑦" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.sassoli.io/chapter-1-exercises/" /><meta property="og:image" content="https://www.sassoli.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-07-01T07:07:59+02:00" />
-<meta property="article:modified_time" content="2023-07-01T07:07:59+02:00" /><meta property="og:site_name" content="JOATMON" />
+<meta property="article:modified_time" content="2023-07-01T16:38:38+02:00" /><meta property="og:site_name" content="JOATMON" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.sassoli.io/logo.png"/>
 
-<meta name="twitter:title" content="Chapter 1 Exercises"/>
-<meta name="twitter:description" content="(𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)
+<meta name="twitter:title" content="Haskell Book: Chapter 1 Exercises"/>
+<meta name="twitter:description" content="Combinators 𝜆𝑥.𝑥𝑥𝑥 𝜆𝑥𝑦.𝑧𝑥 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥) 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥𝑦) 𝜆𝑥𝑦.𝑥𝑦(𝑧𝑥𝑦) 2 and 5 are not combinators because in both cases $z$ appears free.
+Normal form or diverge? 𝜆𝑥.𝑥𝑥𝑥 is already in normal form (𝜆𝑧.𝑧𝑧)(𝜆𝑦.𝑦𝑦) diverges since the first application to $z$ yields (𝜆𝑦.𝑦𝑦)(𝜆𝑦.𝑦𝑦) which is omega (𝜆𝑥.𝑥𝑥𝑥)𝑧 becomes 𝑧𝑧𝑧 -&gt; normal form Beta reduce (𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)
 (𝜆𝑏𝑐.𝑐𝑏𝑧)(𝑧)(𝜆𝑤𝑣.𝑤)
 (𝜆𝑐.𝑐𝑧𝑧)(𝜆𝑤𝑣.𝑤)
 (𝜆𝑤𝑣.𝑤)(𝑧𝑧)
@@ -68,38 +55,23 @@ yy
 (𝜆𝑞.𝑞𝑦)(𝜆𝑞.𝑞𝑦)
 (𝜆𝑞.𝑞𝑦)(y)
 yy
-(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑦.𝑦)𝑦
-(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑞.𝑞)(𝑦)
-(𝜆𝑦.(𝜆𝑞.𝑞)𝑦𝑦)(𝑦)
-((𝜆𝑞.𝑞)𝑦)(𝑦)
-𝑦𝑦
-(𝜆𝑎.𝑎𝑎)(𝜆𝑏.𝑏𝑎)𝑐
-(𝜆𝑎.𝑎𝑎)(𝜆𝑏.𝑏𝑎)𝑐
-(𝜆𝑏.𝑏𝑎)(𝜆𝑏.𝑏𝑎)(𝑐)
-(𝜆𝑏.𝑏𝑎)(𝑎)(𝑐)
-𝑎𝑎𝑐
-(𝜆𝑥𝑦𝑧.𝑥𝑧(𝑦𝑧))(𝜆𝑥.𝑧)(𝜆𝑥.𝑎)
-(𝜆𝑥.𝜆𝑦.𝜆𝑧.𝑥𝑧(𝑦𝑧))(𝜆𝑥.𝑐)(𝜆𝑥.𝑎)
-(𝜆𝑦.𝜆𝑧.(𝜆𝑥.𝑐)(𝑧)(𝑦𝑧))(𝜆𝑥.𝑎)
-(𝜆𝑧.(𝜆𝑥.𝑐)(𝑧)((𝜆𝑥.𝑎)𝑧))
-(𝜆𝑧.𝑐(𝜆𝑥.𝑎(𝑧)))
-(𝜆𝑧.𝑐𝑎)"/>
+(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑦.𝑦)𝑦"/>
 <meta name="application-name" content="JOATMON">
 <meta name="apple-mobile-web-app-title" content="JOATMON"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.sassoli.io/chapter-1-exercises/" /><link rel="prev" href="https://www.sassoli.io/haskell-book-part1/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.sassoli.io/chapter-1-exercises/" /><link rel="prev" href="https://www.sassoli.io/haskell-book-part1/" /><link rel="next" href="https://www.sassoli.io/haskell-book-part-2/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="G-NQTWQCN05S" /><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Chapter 1 Exercises",
+        "headline": "Haskell Book: Chapter 1 Exercises",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.sassoli.io\/chapter-1-exercises\/"
-        },"genre": "posts","wordcount":  35 ,
-        "url": "https:\/\/www.sassoli.io\/chapter-1-exercises\/","datePublished": "2023-07-01T07:07:59+02:00","dateModified": "2023-07-01T07:07:59+02:00","license": "copyright: Bernardino Sassoli 2022-","publisher": {
+        },"genre": "posts","keywords": "programming, programming languages, Haskell","wordcount":  85 ,
+        "url": "https:\/\/www.sassoli.io\/chapter-1-exercises\/","datePublished": "2023-07-01T07:07:59+02:00","dateModified": "2023-07-01T16:38:38+02:00","license": "copyright: Bernardino Sassoli 2022-","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -181,11 +153,42 @@ yy
     <div class="search-dropdown mobile">
         <div id="search-dropdown-mobile"></div>
     </div><main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Chapter 1 Exercises</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="https://www.sassoli.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Bernardino Sassoli</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-01">2023-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;35 words&nbsp;
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Haskell Book: Chapter 1 Exercises</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://www.sassoli.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Bernardino Sassoli</a></span>&nbsp;<span class="post-category">included in <a href="/categories/learning-haskell/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Learning Haskell</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-01">2023-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;85 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
-        </div><div class="content" id="content"><p>(𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)</p>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#combinators">Combinators</a></li>
+    <li><a href="#normal-form-or-diverge">Normal form or diverge?</a></li>
+    <li><a href="#beta-reduce">Beta reduce</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="combinators">Combinators</h2>
+<ol>
+<li>𝜆𝑥.𝑥𝑥𝑥</li>
+<li>𝜆𝑥𝑦.𝑧𝑥</li>
+<li>𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥)</li>
+<li>𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥𝑦)</li>
+<li>𝜆𝑥𝑦.𝑥𝑦(𝑧𝑥𝑦)</li>
+</ol>
+<p>2 and 5 are not combinators because in both cases $z$ appears free.</p>
+<h2 id="normal-form-or-diverge">Normal form or diverge?</h2>
+<ol>
+<li>𝜆𝑥.𝑥𝑥𝑥 is already in normal form</li>
+<li>(𝜆𝑧.𝑧𝑧)(𝜆𝑦.𝑦𝑦) diverges since the first application to $z$ yields (𝜆𝑦.𝑦𝑦)(𝜆𝑦.𝑦𝑦) which is <em>omega</em></li>
+<li>(𝜆𝑥.𝑥𝑥𝑥)𝑧 becomes 𝑧𝑧𝑧 -&gt; normal form</li>
+</ol>
+<h2 id="beta-reduce">Beta reduce</h2>
+<p>(𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)</p>
 <p>(𝜆𝑏𝑐.𝑐𝑏𝑧)(𝑧)(𝜆𝑤𝑣.𝑤)</p>
 <p>(𝜆𝑐.𝑐𝑧𝑧)(𝜆𝑤𝑣.𝑤)</p>
 <p>(𝜆𝑤𝑣.𝑤)(𝑧𝑧)</p>
@@ -237,19 +240,20 @@ yy
                             <a class="link-to-markdown" href="/chapter-1-exercises/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.sassoli.io/chapter-1-exercises/" data-title="Chapter 1 Exercises" data-via="bsassoli"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.sassoli.io/chapter-1-exercises/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://www.sassoli.io/chapter-1-exercises/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.sassoli.io/chapter-1-exercises/" data-title="Chapter 1 Exercises" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.sassoli.io/chapter-1-exercises/" data-title="Chapter 1 Exercises"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://www.sassoli.io/chapter-1-exercises/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.sassoli.io/chapter-1-exercises/" data-title="Haskell Book: Chapter 1 Exercises" data-via="bsassoli" data-hashtags="programming,programming languages,Haskell"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.sassoli.io/chapter-1-exercises/" data-hashtag="programming"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://www.sassoli.io/chapter-1-exercises/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.sassoli.io/chapter-1-exercises/" data-title="Haskell Book: Chapter 1 Exercises" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.sassoli.io/chapter-1-exercises/" data-title="Haskell Book: Chapter 1 Exercises"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://www.sassoli.io/chapter-1-exercises/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/programming/">programming</a>,&nbsp;<a href="/tags/programming-languages/">programming languages</a>,&nbsp;<a href="/tags/haskell/">Haskell</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/haskell-book-part1/" class="prev" rel="prev" title="Haskell Book: Part 1"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Haskell Book: Part 1</a></div>
+    <div class="post-nav"><a href="/haskell-book-part1/" class="prev" rel="prev" title="Haskell Book: Chapters 1 &amp; 2"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Haskell Book: Chapters 1 & 2</a>
+            <a href="/haskell-book-part-2/" class="next" rel="next" title="Haskell Book: Chapters 3 and 4">Haskell Book: Chapters 3 and 4<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

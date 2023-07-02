@@ -1,9 +1,11 @@
 ---
-title: "Chapter 1 Exercises"
+title: "Haskell Book: Chapter 1 Exercises"
 date: 2023-07-01T07:07:59+02:00
 draft: false
 hiddenFromHomePage: true
 toc: true
+tags: [programming, programming languages, Haskell]
+categories: [Learning Haskell]
 ---
 ## Combinators
 

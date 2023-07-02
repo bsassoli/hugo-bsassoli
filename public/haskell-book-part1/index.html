@@ -4,34 +4,34 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Haskell Book: Part 1 - JOATMON</title><meta name="Description" content="Notes on chapters 1 and 2 of the Haskell book"><meta property="og:title" content="Haskell Book: Part 1" />
+        <title>Haskell Book: Chapters 1 &amp; 2 - JOATMON</title><meta name="Description" content="Notes on chapters 1 and 2 of the Haskell book"><meta property="og:title" content="Haskell Book: Chapters 1 &amp; 2" />
 <meta property="og:description" content="Notes on chapters 1 and 2 of the Haskell book" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.sassoli.io/haskell-book-part1/" /><meta property="og:image" content="https://www.sassoli.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-06-30T12:13:35+02:00" />
-<meta property="article:modified_time" content="2023-07-01T07:15:41+02:00" /><meta property="og:site_name" content="JOATMON" />
+<meta property="article:modified_time" content="2023-07-01T16:38:38+02:00" /><meta property="og:site_name" content="JOATMON" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.sassoli.io/logo.png"/>
 
-<meta name="twitter:title" content="Haskell Book: Part 1"/>
+<meta name="twitter:title" content="Haskell Book: Chapters 1 &amp; 2"/>
 <meta name="twitter:description" content="Notes on chapters 1 and 2 of the Haskell book"/>
 <meta name="application-name" content="JOATMON">
 <meta name="apple-mobile-web-app-title" content="JOATMON"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.sassoli.io/haskell-book-part1/" /><link rel="prev" href="https://www.sassoli.io/beginning-my-haskell-journey/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.sassoli.io/haskell-book-part1/" /><link rel="prev" href="https://www.sassoli.io/beginning-my-haskell-journey/" /><link rel="next" href="https://www.sassoli.io/chapter-1-exercises/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="G-NQTWQCN05S" /><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Haskell Book: Part 1",
+        "headline": "Haskell Book: Chapters 1 \u0026 2",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.sassoli.io\/haskell-book-part1\/"
-        },"genre": "posts","keywords": "programming, programming languages, Haskell","wordcount":  129 ,
-        "url": "https:\/\/www.sassoli.io\/haskell-book-part1\/","datePublished": "2023-06-30T12:13:35+02:00","dateModified": "2023-07-01T07:15:41+02:00","license": "copyright: Bernardino Sassoli 2022-","publisher": {
+        },"genre": "posts","keywords": "programming, programming languages, Haskell","wordcount":  451 ,
+        "url": "https:\/\/www.sassoli.io\/haskell-book-part1\/","datePublished": "2023-06-30T12:13:35+02:00","dateModified": "2023-07-01T16:38:38+02:00","license": "copyright: Bernardino Sassoli 2022-","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -116,10 +116,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Haskell Book: Part 1</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="https://www.sassoli.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Bernardino Sassoli</a></span>&nbsp;<span class="post-category">included in <a href="/categories/learning-haskell/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Learning Haskell</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-06-30">2023-06-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;129 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Haskell Book: Chapters 1 & 2</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://www.sassoli.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Bernardino Sassoli</a></span>&nbsp;<span class="post-category">included in <a href="/categories/learning-haskell/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Learning Haskell</a>&nbsp;<a href="/categories/notes/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Notes</a>&nbsp;<a href="/categories/haskell-book/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Haskell Book</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-06-30">2023-06-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;451 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -134,14 +134,19 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#chapter-1">Chapter 1</a></li>
+    <li><a href="#chapter-1">Chapter 1</a>
+      <ul>
+        <li><a href="#exerciseshahahugoshortcode-s0-hbhb"><a href="HAHAHUGOSHORTCODE-s0-HBHB">Exercises</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-2">Chapter 2</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>So this morning I got started with the <a href="https://lhbg-book.link" target="_blank" rel="noopener noreffer ">Haskell book</a>. Here are some notes and exercises.</p>
 <h2 id="chapter-1">Chapter 1</h2>
 <p>This is just a very short and simple introduction to the lambda calculus.</p>
 <ul>
-<li>Syntax of λ-calculus</li>
+<li><strong>Syntax</strong> of λ-calculus</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -159,8 +164,16 @@
 <li><strong>α-equivalence</strong>: basically the notion that $\lambda{x}.x$, $\lambda{y}.y$ and $\lambda{z}.z$ all express the same function.</li>
 <li><strong>β-reduction</strong>: when you apply a function to some expression you replace all bound occurrences in the body with that expression and eliminate the head. To indicate that we are substituting e.g. $x$ with $z$ in $\lambda{x}.x$ we write: $$[x := z]$$</li>
 <li>Applications are <em>left-associative</em>: $$(\lambda{x}.x)(\lambda{y}.y)z$$ is equivalent to $$((\lambda{x}.x)(\lambda{y}.y))z$$</li>
+<li>Each lambda can only bind one parameter and can only accept one argument. Functions that require multiple arguments have multiple, nested heads. This is known as <strong>currying</strong></li>
+<li>A <strong>combinator</strong> is a lambda term with no free variables</li>
+<li><strong>β normal form</strong>. Beta normal form is when you cannot beta reduce (apply lambdas to arguments) the terms any further. This corresponds to a fully evaluated expression, or, in programming, a fully executed program.</li>
+<li>Some expressions <strong>diverge</strong>, e.g. not all reducible lambda terms reduce to a normal form. This isn’t because they’re already fully reduced, but because they diverge. E.g. the <em>omega</em> expression (𝜆𝑥.𝑥𝑥)(𝜆𝑥.𝑥𝑥) diverges.</li>
 </ul>
-<p><a href="https://www.sassoli.io/pages/chapter-1-exercises/" rel="">Exercises</a></p>
+<blockquote>
+<p>semantically, Haskell is a lambda calculus. Actually, Haskell is a typed lambda calculus—more on types later— with a lot of surface-level decoration sprinkled on top, to make it easier for humans to write, but the semantics of the core language are the same as the lambda calculus. That is, the meaning of Haskell programs is centered around evaluating expressions.</p>
+</blockquote>
+<h3 id="exerciseshahahugoshortcode-s0-hbhb"><a href="https://www.sassoli.io/chapter-1-exercises/" rel="">Exercises</a></h3>
+<h2 id="chapter-2">Chapter 2</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -171,7 +184,61 @@
 </span></span><span class="line"><span class="cl"><span class="nf">sayHello</span> <span class="n">x</span> <span class="ow">=</span> <span class="s">&#34;hello &#34;</span> <span class="o">++</span> <span class="n">x</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><p>Most of this wasn&rsquo;t new. But it pushed me to clarify what is meant by <strong>&ldquo;pure&rdquo;</strong> function which is a somewhat confusing notion. So all of these are impiure functions in Python.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="mi">20</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">impure1</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">global</span> <span class="n">a</span>
+</span></span><span class="line"><span class="cl">    <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="mi">20</span>
+</span></span><span class="line"><span class="cl"><span class="n">impure1</span><span class="p">()</span> 
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># no return, calling it will cause changes to a which is outside it&#39;s scope</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">num</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">impure2</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">impure2</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># no return, changing num will change it&#39;s behaviour even though num isn&#39;t an argument to impure</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">num3</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">impure3</span> <span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span><span class="p">)</span> <span class="o">/</span> <span class="n">num3</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">x</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">impure3</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># returns a value but what it returns depends on something that&#39;s not an argument</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Other than that:</p>
+<ul>
+<li>REPL + <code>ghci</code></li>
+<li>infixing with backticks and prefixing with parens</li>
+<li>association and precedence (with <code>:info</code>)</li>
+<li><code>let</code> vs <code>where</code></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -182,7 +249,7 @@
                             <a class="link-to-markdown" href="/haskell-book-part1/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.sassoli.io/haskell-book-part1/" data-title="Haskell Book: Part 1" data-via="bsassoli" data-hashtags="programming,programming languages,Haskell"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.sassoli.io/haskell-book-part1/" data-hashtag="programming"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://www.sassoli.io/haskell-book-part1/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.sassoli.io/haskell-book-part1/" data-title="Haskell Book: Part 1" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.sassoli.io/haskell-book-part1/" data-title="Haskell Book: Part 1"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://www.sassoli.io/haskell-book-part1/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.sassoli.io/haskell-book-part1/" data-title="Haskell Book: Chapters 1 &amp; 2" data-via="bsassoli" data-hashtags="programming,programming languages,Haskell"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.sassoli.io/haskell-book-part1/" data-hashtag="programming"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://www.sassoli.io/haskell-book-part1/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.sassoli.io/haskell-book-part1/" data-title="Haskell Book: Chapters 1 &amp; 2" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.sassoli.io/haskell-book-part1/" data-title="Haskell Book: Chapters 1 &amp; 2"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://www.sassoli.io/haskell-book-part1/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -194,7 +261,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/beginning-my-haskell-journey/" class="prev" rel="prev" title="Beginning My Haskell Journey"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Beginning My Haskell Journey</a></div>
+    <div class="post-nav"><a href="/beginning-my-haskell-journey/" class="prev" rel="prev" title="Beginning My Haskell Journey"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Beginning My Haskell Journey</a>
+            <a href="/chapter-1-exercises/" class="next" rel="next" title="Haskell Book: Chapter 1 Exercises">Haskell Book: Chapter 1 Exercises<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

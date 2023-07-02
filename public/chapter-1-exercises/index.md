@@ -1,6 +1,22 @@
-# Chapter 1 Exercises
+# Haskell Book: Chapter 1 Exercises
 
+## Combinators
 
+1. 𝜆𝑥.𝑥𝑥𝑥
+2. 𝜆𝑥𝑦.𝑧𝑥
+3. 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥)
+4. 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥𝑦)
+5. 𝜆𝑥𝑦.𝑥𝑦(𝑧𝑥𝑦)
+
+2 and 5 are not combinators because in both cases $z$ appears free.
+
+## Normal form or diverge?
+
+1. 𝜆𝑥.𝑥𝑥𝑥 is already in normal form
+2. (𝜆𝑧.𝑧𝑧)(𝜆𝑦.𝑦𝑦) diverges since the first application to $z$ yields (𝜆𝑦.𝑦𝑦)(𝜆𝑦.𝑦𝑦) which is *omega*
+3. (𝜆𝑥.𝑥𝑥𝑥)𝑧 becomes 𝑧𝑧𝑧 -> normal form
+
+## Beta reduce
 
 (𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)
 
