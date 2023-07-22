@@ -397,13 +397,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = false
       # Disqus comment config
       [params.page.comment.disqus]
-        # 
+        #
         enable = false
         # Disqus shortname to use Disqus in posts
         shortname = ""
       # Gitalk comment config
       [params.page.comment.gitalk]
-        # 
+        #
         enable = false
         owner = ""
         repo = ""

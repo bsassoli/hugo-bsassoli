@@ -10,9 +10,7 @@
     <pubDate>Sun, 02 Jul 2023 09:00:00 &#43;0200</pubDate>
     <author>Bernardino Sassoli</author>
     <guid>https://www.sassoli.io/haskell-book-part-2/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/haskell-hello-world.png" referrerpolicy="no-referrer">
-            </div>Notes on chapters 3 and 4 of the Haskell book]]></description>
+    <description><![CDATA[Notes on chapters 3 and 4 of the Haskell book]]></description>
 </item>
 <item>
     <title>Haskell Book: Chapter 1 Exercises</title>
@@ -48,9 +46,7 @@ yy
     <pubDate>Fri, 30 Jun 2023 12:13:35 &#43;0200</pubDate>
     <author>Bernardino Sassoli</author>
     <guid>https://www.sassoli.io/haskell-book-part1/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/haskell-hello-world.png" referrerpolicy="no-referrer">
-            </div>So this morning I got started with the Haskell book. Here are some notes and exercises.
+    <description><![CDATA[So this morning I got started with the Haskell book. Here are some notes and exercises.
 Chapter 1 This is just a very short and simple introduction to the lambda calculus.
 Syntax of λ-calculus 1 2 3 &lt;expression&gt; := &lt;name&gt; | &lt;function&gt; | &lt;application&gt; &lt;function&gt; := λ &lt;name&gt;.&lt;expression&gt; &lt;application&gt; := &lt;expression&gt;&lt;expression&gt; α-equivalence: basically the notion that $\lambda{x}.x$, $\lambda{y}.y$ and $\lambda{z}.z$ all express the same function. β-reduction: when you apply a function to some expression you replace all bound occurrences in the body with that expression and eliminate the head.]]></description>
 </item>
@@ -60,9 +56,7 @@ Syntax of λ-calculus 1 2 3 &lt;expression&gt; := &lt;name&gt; | &lt;function&gt
     <pubDate>Thu, 29 Jun 2023 18:04:08 &#43;0200</pubDate>
     <author>Bernardino Sassoli</author>
     <guid>https://www.sassoli.io/beginning-my-haskell-journey/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/haskell_code.png" referrerpolicy="no-referrer">
-            </div>I&rsquo;ve been interested in functional programming languages for a while now. Having gone through some Scheme / Racket, some Elm as well as a little Standard ML, I guess I have no more excuse to procrastinate learning Haskell, which was the initial idea all along, basically. I am a little put off but all the horror stories about people who attempted to learn Haskell, unsuccessfully, many times over. So this series of posts will be my way to hold myself accountable and, if so be it, publicly acknowledge my shameful failure and my addition to the above mentioned heap of wannabee Haskellers.]]></description>
+    <description><![CDATA[I&rsquo;ve been interested in functional programming languages for a while now. Having gone through some Scheme / Racket, some Elm as well as a little Standard ML, I guess I have no more excuse to procrastinate learning Haskell, which was the initial idea all along, basically. I am a little put off but all the horror stories about people who attempted to learn Haskell, unsuccessfully, many times over. So this series of posts will be my way to hold myself accountable and, if so be it, publicly acknowledge my shameful failure and my addition to the above mentioned heap of wannabee Haskellers.]]></description>
 </item>
 </channel>
 </rss>

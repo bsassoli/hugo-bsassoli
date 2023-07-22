@@ -3,7 +3,7 @@ title: "Haskell Book: Chapters 1 & 2"
 date: 2023-06-30T12:13:35+02:00
 draft: false
 description: "Notes on chapters 1 and 2 of the Haskell book"
-featuredImage: "/images/haskell-hello-world.png"
+# featuredImage: "/images/haskell-hello-world.png"
 tags: [programming, programming languages, Haskell]
 categories: [Learning Haskell, Notes, Haskell Book]
 ---

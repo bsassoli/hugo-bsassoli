@@ -3,7 +3,7 @@ title: "Beginning My Haskell Journey"
 date: 2023-06-29T18:04:08+02:00
 draft: false
 description: "My resolution to start learning Haskell."
-featuredImage: "/images/haskell_code.png"
+# featuredImage: "/images/haskell_code.png"
 tags: [programming, programming languages, Haskell]
 categories: [Learning Haskell]
 toc: false
