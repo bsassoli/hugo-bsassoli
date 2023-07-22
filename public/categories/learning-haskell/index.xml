@@ -5,12 +5,15 @@
         <description>Learning Haskell - Category - JOATMON</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sassoli@gmail.com (Bernardino Sassoli)</managingEditor>
             <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Sun, 02 Jul 2023 09:00:00 &#43;0200</lastBuildDate><atom:link href="https://www.sassoli.io/categories/learning-haskell/" rel="self" type="application/rss+xml" /><item>
-    <title>Haskell Book: Chapters 3 and 4</title>
+    <title>Haskell Book: Chapters 3 &amp; 4</title>
     <link>https://www.sassoli.io/haskell-book-part-2/</link>
     <pubDate>Sun, 02 Jul 2023 09:00:00 &#43;0200</pubDate>
     <author>Bernardino Sassoli</author>
     <guid>https://www.sassoli.io/haskell-book-part-2/</guid>
-    <description><![CDATA[Notes on chapters 3 and 4 of the Haskell book]]></description>
+    <description><![CDATA[Chapter 3 type Char (in single quotes) vs type String (which is as usual syntactic sugar for a list of chars, hence String is a type alias for [Char])
+need main when building a project with Stack
+the IO () type, &ldquo;used when the result of running a program involves effects beyond evaluating a function or expression&rdquo;
+print vs putStr vs putStrLn - the first just prints whatever to the display hence, the others are String specific (putStrLn will add a newline char):]]></description>
 </item>
 <item>
     <title>Haskell Book: Chapter 1 Exercises</title>

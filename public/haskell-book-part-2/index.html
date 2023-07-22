@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Haskell Book: Chapters 3 and 4 - JOATMON</title><meta name="Description" content="Notes on chapters 3 and 4 of the Haskell book"><meta property="og:title" content="Haskell Book: Chapters 3 and 4" />
+        <title>Haskell Book: Chapters 3 &amp; 4 - JOATMON</title><meta name="Description" content="Notes on chapters 3 and 4 of the Haskell book"><meta property="og:title" content="Haskell Book: Chapters 3 &amp; 4" />
 <meta property="og:description" content="Notes on chapters 3 and 4 of the Haskell book" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.sassoli.io/haskell-book-part-2/" /><meta property="og:image" content="https://www.sassoli.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-07-02T09:00:00+02:00" />
-<meta property="article:modified_time" content="2023-07-02T09:14:35+02:00" /><meta property="og:site_name" content="JOATMON" />
+<meta property="article:modified_time" content="2023-07-22T08:19:38+02:00" /><meta property="og:site_name" content="JOATMON" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.sassoli.io/logo.png"/>
 
-<meta name="twitter:title" content="Haskell Book: Chapters 3 and 4"/>
+<meta name="twitter:title" content="Haskell Book: Chapters 3 &amp; 4"/>
 <meta name="twitter:description" content="Notes on chapters 3 and 4 of the Haskell book"/>
 <meta name="application-name" content="JOATMON">
 <meta name="apple-mobile-web-app-title" content="JOATMON"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -25,13 +25,13 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Haskell Book: Chapters 3 and 4",
+        "headline": "Haskell Book: Chapters 3 \u0026 4",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.sassoli.io\/haskell-book-part-2\/"
-        },"genre": "posts","keywords": "programming, programming languages, Haskell","wordcount":  0 ,
-        "url": "https:\/\/www.sassoli.io\/haskell-book-part-2\/","datePublished": "2023-07-02T09:00:00+02:00","dateModified": "2023-07-02T09:14:35+02:00","license": "copyright: Bernardino Sassoli 2022-","publisher": {
+        },"genre": "posts","keywords": "programming, programming languages, Haskell","wordcount":  213 ,
+        "url": "https:\/\/www.sassoli.io\/haskell-book-part-2\/","datePublished": "2023-07-02T09:00:00+02:00","dateModified": "2023-07-22T08:19:38+02:00","license": "copyright: Bernardino Sassoli 2022-","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -116,28 +116,110 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Haskell Book: Chapters 3 and 4</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Haskell Book: Chapters 3 & 4</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://www.sassoli.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Bernardino Sassoli</a></span>&nbsp;<span class="post-category">included in <a href="/categories/learning-haskell/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Learning Haskell</a>&nbsp;<a href="/categories/notes/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Notes</a>&nbsp;<a href="/categories/haskell-book/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Haskell Book</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-02">2023-07-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;0 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;0 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-02">2023-07-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;213 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div><div class="post-footer" id="post-footer">
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#chapter-3">Chapter 3</a></li>
+    <li><a href="#chapter-4">Chapter 4</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="chapter-3">Chapter 3</h2>
+<ul>
+<li>
+<p>type <code>Char</code> (in <em>single quotes</em>) vs type <code>String</code> (which is as usual syntactic sugar for a list of chars, hence <code>String</code> is a <strong>type alias</strong> for <code>[Char]</code>)</p>
+</li>
+<li>
+<p>need <code>main</code> when building a project with Stack</p>
+</li>
+<li>
+<p>the <code>IO ()</code> type, &ldquo;used when the result of running a program involves effects beyond evaluating a function or expression&rdquo;</p>
+</li>
+<li>
+<p><code>print</code> vs <code>putStr</code> vs <code>putStrLn</code> - the first just prints whatever to the display hence, the others are String specific (<code>putStrLn</code> will add a newline char):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"><span class="nf">print</span> <span class="s">&#34;hello&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- &#34;hello&#34; with quotation marks</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p><code>do</code> syntax -&gt; used when sequencing actions. Not strictly necessary, used for readability.</p>
+</li>
+<li>
+<p>concatenate strings with ++ and <code>concat</code></p>
+</li>
+<li>
+<p>top-level <em>vs.</em> local bindings</p>
+</li>
+<li>
+<p>first mention of <strong>type classes</strong>:</p>
+<blockquote>
+<p>Type classes provide definitions of operations, or functions, that can be shared across sets of types</p>
+</blockquote>
+</li>
+<li>
+<p><strong>List functions</strong></p>
+<ul>
+<li><code>cons</code> or <code>:</code></li>
+<li><code>head</code></li>
+<li><code>tail</code></li>
+<li><code>take</code></li>
+<li><code>drop</code></li>
+<li><code>!!</code> (index)</li>
+<li>These functions are <em>unsafe</em>:
+<blockquote>
+<p>while all of these are standard Prelude functions, many of them are considered unsafe. They are unsafe, because they do not know how to handle an empty list. Instead, they throw out an error message, or exception, when given an empty list as input</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="chapter-4">Chapter 4</h2>
+<ul>
+<li>
+<p><strong>Data declarations</strong></p>
+<ul>
+<li><em>type</em> constructor</li>
+<li><em>data</em> constructor</li>
+</ul>
+</li>
+<li>
+<p><strong>Sum (union)</strong> types:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl">  <span class="kr">data</span> <span class="kt">Bool</span> <span class="ow">=</span> <span class="kt">False</span> <span class="o">|</span> <span class="kt">True</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-07-02</span>
+                <span>Updated on 2023-07-22</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
                             <a class="link-to-markdown" href="/haskell-book-part-2/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.sassoli.io/haskell-book-part-2/" data-title="Haskell Book: Chapters 3 and 4" data-via="bsassoli" data-hashtags="programming,programming languages,Haskell"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.sassoli.io/haskell-book-part-2/" data-hashtag="programming"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://www.sassoli.io/haskell-book-part-2/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.sassoli.io/haskell-book-part-2/" data-title="Haskell Book: Chapters 3 and 4" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.sassoli.io/haskell-book-part-2/" data-title="Haskell Book: Chapters 3 and 4"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://www.sassoli.io/haskell-book-part-2/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.sassoli.io/haskell-book-part-2/" data-title="Haskell Book: Chapters 3 &amp; 4" data-via="bsassoli" data-hashtags="programming,programming languages,Haskell"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.sassoli.io/haskell-book-part-2/" data-hashtag="programming"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://www.sassoli.io/haskell-book-part-2/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://www.sassoli.io/haskell-book-part-2/" data-title="Haskell Book: Chapters 3 &amp; 4" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.sassoli.io/haskell-book-part-2/" data-title="Haskell Book: Chapters 3 &amp; 4"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://www.sassoli.io/haskell-book-part-2/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
