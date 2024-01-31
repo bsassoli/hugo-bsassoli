@@ -2,20 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://www.sassoli.io/categories/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/tags/haskell/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/categories/haskell-book/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/haskell-book-part-2/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/categories/learning-haskell/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/categories/notes/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/posts/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/tags/programming/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/tags/programming-languages/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/tags/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/chapter-1-exercises/</loc><lastmod>2023-07-02T09:14:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://www.sassoli.io/haskell-book-part1/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://www.sassoli.io/beginning-my-haskell-journey/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.sassoli.io/categories/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/tags/haskell/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/categories/haskell-book/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/haskell-book-part-2/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/categories/learning-haskell/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/categories/notes/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/posts/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/tags/programming/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/tags/programming-languages/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/tags/</loc><lastmod>2023-07-22T17:51:11&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/chapter-1-exercises/</loc><lastmod>2023-07-02T09:14:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/haskell-book-part1/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.sassoli.io/beginning-my-haskell-journey/</loc><lastmod>2023-07-22T08:19:38&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.sassoli.io/reading-sicp/</loc><lastmod>2023-03-09T21:00:30&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.sassoli.io/categories/ramblings/</loc><lastmod>2023-03-09T21:00:30&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.sassoli.io/tags/sicp/</loc><lastmod>2023-03-09T21:00:30&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
