@@ -4,70 +4,13 @@
         <link>https://www.sassoli.io/posts/</link>
         <description>All Posts | JOATMON</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sassoli@gmail.com (Bernardino Sassoli)</managingEditor>
-            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Sun, 02 Jul 2023 09:00:00 &#43;0200</lastBuildDate><atom:link href="https://www.sassoli.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Haskell Book: Chapters 3 &amp; 4</title>
-    <link>https://www.sassoli.io/haskell-book-part-2/</link>
-    <pubDate>Sun, 02 Jul 2023 09:00:00 &#43;0200</pubDate>
+            <webMaster>sassoli@gmail.com (Bernardino Sassoli)</webMaster><copyright>copyright: Bernardino Sassoli 2022-</copyright><lastBuildDate>Tue, 20 Feb 2024 00:58:33 &#43;0100</lastBuildDate><atom:link href="https://www.sassoli.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hello World</title>
+    <link>https://www.sassoli.io/hello-world/</link>
+    <pubDate>Tue, 20 Feb 2024 00:58:33 &#43;0100</pubDate>
     <author>Bernardino Sassoli</author>
-    <guid>https://www.sassoli.io/haskell-book-part-2/</guid>
-    <description><![CDATA[Chapter 3 type Char (in single quotes) vs type String (which is as usual syntactic sugar for a list of chars, hence String is a type alias for [Char])
-need main when building a project with Stack
-the IO () type, &ldquo;used when the result of running a program involves effects beyond evaluating a function or expression&rdquo;
-print vs putStr vs putStrLn - the first just prints whatever to the display hence, the others are String specific (putStrLn will add a newline char):]]></description>
-</item>
-<item>
-    <title>Haskell Book: Chapter 1 Exercises</title>
-    <link>https://www.sassoli.io/chapter-1-exercises/</link>
-    <pubDate>Sat, 01 Jul 2023 07:07:59 &#43;0200</pubDate>
-    <author>Bernardino Sassoli</author>
-    <guid>https://www.sassoli.io/chapter-1-exercises/</guid>
-    <description><![CDATA[Combinators 𝜆𝑥.𝑥𝑥𝑥 𝜆𝑥𝑦.𝑧𝑥 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥) 𝜆𝑥𝑦𝑧.𝑥𝑦(𝑧𝑥𝑦) 𝜆𝑥𝑦.𝑥𝑦(𝑧𝑥𝑦) 2 and 5 are not combinators because in both cases $z$ appears free.
-Normal form or diverge? 𝜆𝑥.𝑥𝑥𝑥 is already in normal form (𝜆𝑧.𝑧𝑧)(𝜆𝑦.𝑦𝑦) diverges since the first application to $z$ yields (𝜆𝑦.𝑦𝑦)(𝜆𝑦.𝑦𝑦) which is omega (𝜆𝑥.𝑥𝑥𝑥)𝑧 becomes 𝑧𝑧𝑧 -&gt; normal form Beta reduce (𝜆𝑎𝑏𝑐.𝑐𝑏𝑎)𝑧𝑧(𝜆𝑤𝑣.𝑤)
-(𝜆𝑏𝑐.𝑐𝑏𝑧)(𝑧)(𝜆𝑤𝑣.𝑤)
-(𝜆𝑐.𝑐𝑧𝑧)(𝜆𝑤𝑣.𝑤)
-(𝜆𝑤𝑣.𝑤)(𝑧𝑧)
-𝑧𝑧
-(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑎.𝑎)𝑏
-(𝜆𝑦.(𝜆𝑎.𝑎)yy)(𝑏)
-(𝜆𝑎.𝑎)𝑏𝑏
-𝑏𝑏
-(𝜆𝑦.𝑦)(𝜆𝑥.𝑥𝑥)(𝜆𝑧.𝑧𝑞)
-(𝜆𝑥.𝑥𝑥)(𝜆𝑧.𝑧𝑞)
-(𝜆𝑧.𝑧𝑞)(𝜆𝑧.𝑧𝑞)
-(𝜆𝑧.𝑧𝑞)(𝑞)
-𝑞𝑞
-(𝜆𝑧.𝑧)(𝜆𝑧.𝑧𝑧)(𝜆𝑧.𝑧𝑦)
-(𝜆𝑧.𝑧𝑧)(𝜆𝑞.𝑞𝑦)
-(𝜆𝑞.𝑞𝑦)(𝜆𝑞.𝑞𝑦)
-(𝜆𝑞.𝑞𝑦)(y)
-yy
-(𝜆𝑥.𝜆𝑦.𝑥𝑦𝑦)(𝜆𝑦.𝑦)𝑦]]></description>
-</item>
-<item>
-    <title>Haskell Book: Chapters 1 &amp; 2</title>
-    <link>https://www.sassoli.io/haskell-book-part1/</link>
-    <pubDate>Fri, 30 Jun 2023 12:13:35 &#43;0200</pubDate>
-    <author>Bernardino Sassoli</author>
-    <guid>https://www.sassoli.io/haskell-book-part1/</guid>
-    <description><![CDATA[So this morning I got started with the Haskell book. Here are some notes and exercises.
-Chapter 1 This is just a very short and simple introduction to the lambda calculus.
-Syntax of λ-calculus 1 2 3 &lt;expression&gt; := &lt;name&gt; | &lt;function&gt; | &lt;application&gt; &lt;function&gt; := λ &lt;name&gt;.&lt;expression&gt; &lt;application&gt; := &lt;expression&gt;&lt;expression&gt; α-equivalence: basically the notion that $\lambda{x}.x$, $\lambda{y}.y$ and $\lambda{z}.z$ all express the same function. β-reduction: when you apply a function to some expression you replace all bound occurrences in the body with that expression and eliminate the head.]]></description>
-</item>
-<item>
-    <title>Beginning My Haskell Journey</title>
-    <link>https://www.sassoli.io/beginning-my-haskell-journey/</link>
-    <pubDate>Thu, 29 Jun 2023 18:04:08 &#43;0200</pubDate>
-    <author>Bernardino Sassoli</author>
-    <guid>https://www.sassoli.io/beginning-my-haskell-journey/</guid>
-    <description><![CDATA[I&rsquo;ve been interested in functional programming languages for a while now. Having gone through some Scheme / Racket, some Elm as well as a little Standard ML, I guess I have no more excuse to procrastinate learning Haskell, which was the initial idea all along, basically. I am a little put off but all the horror stories about people who attempted to learn Haskell, unsuccessfully, many times over. So this series of posts will be my way to hold myself accountable and, if so be it, publicly acknowledge my shameful failure and my addition to the above mentioned heap of wannabee Haskellers.]]></description>
-</item>
-<item>
-    <title>Berni&#39;s adventures in SICPland</title>
-    <link>https://www.sassoli.io/reading-sicp/</link>
-    <pubDate>Thu, 09 Mar 2023 21:00:30 &#43;0100</pubDate>
-    <author>Bernardino Sassoli</author>
-    <guid>https://www.sassoli.io/reading-sicp/</guid>
-    <description><![CDATA[I probably should get my act together and actually read and study SICP.]]></description>
+    <guid>https://www.sassoli.io/hello-world/</guid>
+    <description><![CDATA[Hi, this is the my personal website and there is nothing to see here yet. But there&rsquo;s an &ldquo;about&rdquo; section in the upper right if you want to know more about me.]]></description>
 </item>
 </channel>
 </rss>

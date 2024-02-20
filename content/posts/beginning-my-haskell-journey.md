@@ -1,7 +1,7 @@
 ---
 title: "Beginning My Haskell Journey"
 date: 2023-06-29T18:04:08+02:00
-draft: false
+draft: true
 description: "My resolution to start learning Haskell."
 # featuredImage: "/images/haskell_code.png"
 tags: [programming, programming languages, Haskell]
